@@ -4,10 +4,8 @@ class kotik:
     def __init__(self, speed=30):
         self.speed = speed
         kotik.amount_of_kotik += 1
-
     def grow(self, speed=1):
         self.speed += speed
-
 
 Baton = kotik()
 Belyash = kotik(speed=80)
